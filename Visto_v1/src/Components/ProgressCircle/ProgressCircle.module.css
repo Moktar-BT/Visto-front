@@ -1,0 +1,9 @@
+.progressCircleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 130px; /* Ajustez la taille du conteneur si nécessaire */
+    height: 130px; /* Ajustez la taille du conteneur si nécessaire */
+  }
+  

@@ -1,0 +1,77 @@
+.container {
+    background-color: #da000000;
+    padding-left: 30px;
+    border-radius: 12px;
+    max-height: 318px; /* Limite la hauteur totale du conteneur */
+    overflow-y: auto; /* Ajoute un défilement vertical si nécessaire */
+}
+
+.candidateItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 60px; /* Ajustez la hauteur de chaque ligne */
+    box-sizing: border-box;
+}
+
+.candidateItem:last-child {
+    border-bottom: none;
+}
+
+.candidateImage {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.candidateInfo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.candidateInfo div {
+    width: 120px; /* Ajustez cette largeur selon vos besoins */
+    text-align: left;
+    margin-right: 60px; /* Ajoutez un espacement entre les informations et l'icône */
+}
+
+.eyeIcon {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    margin-left: -30px; /* Ajoutez un peu d'espace entre l'icône et les informations */
+}
+
+.button {
+    display: block;
+    width: 150px;
+    background-color: #99cafe; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte */
+    border: none;
+    border-radius: 6px; /* Bord arrondi */
+    padding: 10px; /* Espacement intérieur */
+    font-size: 16px; /* Taille de la police */
+    font-weight: 500; /* Poids de la police */
+    cursor: pointer;
+    text-align: center; /* Centrer le texte */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Effets de transition */
+    margin-bottom: 35px;
+}
+
+.viewAllButton {
+    display: flex;
+    margin-left: 180px;
+    background-color: transparent;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+}
+
+.more {
+    margin-left: 5px;
+    margin-top: 4.5px;
+    height: 20px;
+}

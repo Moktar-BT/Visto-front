@@ -1,0 +1,42 @@
+.search {
+  display: flex;
+  align-items: center;
+  max-width: 530px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: #ffffff; /* Fond blanc */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden; /* Masque le contenu débordant */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); /* Ombre légère */
+}
+
+.search-input {
+  flex: 1;
+  padding: 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  height: 53px;
+  border: none;
+  background: none;
+  outline: none;
+ 
+}
+
+.search-button {
+  height: 50px; /* Hauteur égale à celle du champ de texte */
+  min-width: 50px; /* Largeur minimale */
+  background-color: rgb(216, 234, 255); /* Couleur spécifiée pour le bouton Search */
+  color: rgb(30, 119, 192); /* Couleur du texte plus foncée */
+  border: 1px solid #ccc; /* Bordure légère grise */
+ /* Bordure arrondie à droite du bouton */
+ border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition douce pour l'animation */
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+  color: white; /* Couleur du texte au survol */
+  border-color: #0056b3; /* Couleur de la bordure au survol */
+}

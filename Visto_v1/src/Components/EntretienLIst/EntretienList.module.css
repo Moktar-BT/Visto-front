@@ -1,0 +1,58 @@
+
+  .edit{
+    height: 17px;
+    margin-top: 6px;
+   
+  }
+  .editbtn{
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .deletebtn{
+    margin-top: 13px;
+    height: 25px;
+    width: 25px;
+    background-color:transparent;
+  }
+  /* Style pour les boutons */
+/* Style pour les boutons */
+.modalButton {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.2s ease;
+  text-transform: capitalize; /* Capitalize the first letter */
+}
+
+/* Style pour le bouton Annuler */
+.modalButton.cancelButton {
+  background-color: #ccc; /* Gray background */
+ 
+    color: #333;
+}
+
+.modalButton.cancelButton:hover {
+  background-color: #bbb; /* Darker gray background on hover */
+}
+
+/* Style pour le bouton Enregistrer */
+.modalButton.saveButton {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+}
+
+.modalButton.saveButton:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+
+/* Style pour le bouton Supprimer */
+.modalButton.deleteButton {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+}
+
+.modalButton.deleteButton:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}

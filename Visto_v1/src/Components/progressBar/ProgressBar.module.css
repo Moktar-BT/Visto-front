@@ -1,0 +1,23 @@
+.pbcontainer {
+    display: block;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0;
+    font-size: 17px;
+    color: #333;
+    padding:20px;
+    font-weight:600;
+  }
+  .nbr{
+    font-size: 35px;
+    margin-top: -40px;
+    margin-left: 77px;
+    color: rgb(77, 132, 177);
+  }
+  .img{
+    margin-left: 137px;
+    height: 60px;  
+    width: 60px;
+  }
+ 

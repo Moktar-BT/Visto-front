@@ -1,0 +1,86 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+  margin-top: 62px;
+  border-radius: 11px;
+  margin-left: 247px;
+  padding: 20px;
+  width: 1200px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.leftContainer {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.statContainer {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 12px; /* Slightly larger border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+  border-left: 4px solid #5aa3f2; /* Accent border on the left */
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 15px; /* Increased gap for better spacing */
+  height: 90px; /* Consistent height for all stat containers */
+}
+
+.statContainer:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.statContainer img {
+  width: 50px; /* Increased size for better visibility */
+  height: 50px;
+  object-fit: contain;
+}
+
+.statContainer h3 {
+  margin: 0;
+  font-size: 1.4em; /* Slightly larger font size */
+  color: #333333; /* Dark gray text for headings */
+  flex: 1; /* Take up remaining space */
+  font-weight: 400;
+}
+
+.statContainer p {
+  margin: 0;
+  font-size: 2.5em; /* Slightly larger font size */
+  color: #5aa3f2; /* Color for the numbers */
+}
+
+.rightContainer {
+  grid-column: span 9;
+  background-color: #ffffff; /* White background */
+  padding: 16px; /* Add some padding for inner spacing */
+  padding-left: 40px;
+  border-radius: 12px; /* Optional: add border radius for consistency */
+  height: 398px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28); /* Optional: add shadow for consistency */
+}
+
+.fullWidthContainer {
+  grid-column: span 7; /* Take up all columns */
+  background-color: #ffffff; /* White background */
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 12px; /* Optional: add border radius for consistency */
+  height: 343px; /* Adjust height as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28); /* Optional: add shadow for consistency */
+  padding-top: 15px;
+}
+.fullWidthContainer1 {
+  grid-column: span 5; /* Take up all columns */
+  
+  height: 358px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.28); /* Optional: add shadow for consistency */
+}

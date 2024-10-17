@@ -1,0 +1,207 @@
+.container {
+  /* background-color: #EEF2F6; */
+  margin-top: 62px;
+  border-radius: 11px;
+  margin-left: 247px;
+  height: 100%;
+  width: 1194px;
+  padding: 20px 30px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px; /* Vous pouvez ajuster cette valeur selon vos besoins */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.cardHeader {
+  border-bottom: 1px solid #e2e8f0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.cardBody {
+  flex: 1;
+}
+
+.description {
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 16px;
+}
+.saveButton{
+  background-color:rgb(216, 234, 255);
+}
+
+.button {
+  margin-left: 8px;
+  background-color: #EEF2F6;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #d1d9e6;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Ajouter button */
+.addButton {
+  height: 480px;
+  width: 340px;
+  background-color: #EEF2F6;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+  margin-left: 8.5px;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.addButton img {
+  height: 50px;
+  width: 50px;
+}
+
+.addButton:hover {
+  background-color: rgb(216, 234, 255);
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Modal styles */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.modalHeader {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.modalBody {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.modalButton {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirmButton {
+  background-color: rgb(216, 234, 255);
+  color: rgb(30, 119, 192);
+}
+
+.cancelButton {
+  background-color: #dc3545;
+  color: white;
+}
+.description{
+  max-width: 470px;
+  min-width: 470px;
+}
+
+/* Bordure uniquement en bas pour les champs input et textarea */
+input,
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0; /* Enlever les coins arrondis */
+  font-size: 16px;
+  box-sizing: border-box; /* S'assurer que la bordure est incluse dans la largeur */
+}
+
+/* Focus state */
+input:focus,
+textarea:focus {
+  outline: none;
+  border-bottom-color: #4d90fe;
+  box-shadow: none; /* Enlever le box-shadow */
+}
+
+/* Placeholder */
+input::placeholder,
+textarea::placeholder {
+  color: #6c757d;
+}
+
+/* Hover state */
+input:hover,
+textarea:hover {
+  border-bottom-color: #b7b7b7;
+}
+
+/* Disabled state */
+input:disabled,
+textarea:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+  border-bottom-color: #ced4da; /* Maintenir la bordure en bas */
+}

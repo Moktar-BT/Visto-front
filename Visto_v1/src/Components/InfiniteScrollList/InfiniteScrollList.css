@@ -1,0 +1,48 @@
+#scrollableDiv {
+  height: 100%;
+  overflow: auto;
+  padding: 0 16px;
+  border: 1px solid rgba(140, 140, 140, 0.35);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0;
+  height: 50px;
+}
+
+.header-item {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.candidate-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgba(140, 140, 140, 0.35);
+}
+
+.candidate-info {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.candidate-info > div,
+.candidate-info > a {
+  flex: 1;
+  text-align: center;
+}
+
+.candidate-item:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

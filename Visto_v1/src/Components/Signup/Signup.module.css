@@ -1,0 +1,205 @@
+/* Add this CSS to Login.module.css or a new file shared between Login and Signup */
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  max-width: 1100px;
+  margin-left: 205px;
+  min-height: 600px;
+}
+
+.leftcontainer {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rightcontainer {
+  flex: 0 0 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 220px;
+}
+
+.form {
+  width: 100%;
+}
+
+.form_group {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.input_field,
+.password_input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #dcdfe6;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #f7f9fc;
+  transition: border-color 0.3s ease;
+}
+
+.input_field:focus,
+.password_input:focus {
+  border-color: #a0b5eb;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(160, 181, 235, 0.4);
+}
+
+.password_container {
+  position: relative;
+}
+
+.show_password_button {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.eye_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.submit_button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #687188;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit_button:hover {
+  background-color: #586e8b; /* Slightly darker for hover effect */
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.signup_link {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.signup_link p {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.signup_link .ins {
+  color: #687188;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup_link .ins:hover {
+  text-decoration: underline;
+}
+/* Add these styles to your existing CSS file */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  position: relative;
+}
+
+.checkImage {
+  width: 50px;
+  height: 50px;
+}
+
+.closeButton {
+  background: #586e8b;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+.modalImage {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.closeButton {
+  background: #586e8b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
